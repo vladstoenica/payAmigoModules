@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    allCustomers:
+      path: /api/users/create
+      url: http://localhost:8084/users
+    clientUsersAll:
+      path: /client/user/all
+      url: http://localhost:8082/users
